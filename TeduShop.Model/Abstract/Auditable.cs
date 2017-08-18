@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace TeduShop.Model.Abstract
 {
@@ -11,5 +12,7 @@ namespace TeduShop.Model.Abstract
         public  bool Status { get; set; }
         public  string UpdatedBy { get; set; }
         public  DateTime? UpdatedDate { get; set; }
+        public string Image { set; get; }
+        public XElement MoreImage { set; get; }
     }
 }
