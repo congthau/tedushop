@@ -54,8 +54,20 @@
     <Compile Include="Model\Footer.cs" />
     <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\MenuGroup.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\OrderDetail.cs" />
+    <Compile Include="Model\Page.cs" />
+    <Compile Include="Model\Post.cs" />
+    <Compile Include="Model\PostCategories.cs" />
+    <Compile Include="Model\PostTags.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\ProductCategory.cs" />
+    <Compile Include="Model\ProductTags.cs" />
+    <Compile Include="Model\Slides.cs" />
+    <Compile Include="Model\SuportOnline.cs" />
+    <Compile Include="Model\SystemConfig.cs" />
+    <Compile Include="Model\Tags.cs" />
+    <Compile Include="Model\Visitorstatistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
