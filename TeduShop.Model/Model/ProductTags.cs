@@ -14,8 +14,10 @@ namespace TeduShop.Model.Model
         [Key]
         public int TagID { set; get; }
 
-        public virtual IEnumerable<Product> Product { set; get; }
+        [ForeignKey("ProductID")]
+        public virtual Product Product { set; get; }
 
-        public virtual IEnumerable<Tags> Tags { set; get; }
+        [ForeignKey("TagID")]
+        public virtual Tags Tags { set; get; }
     }
 }

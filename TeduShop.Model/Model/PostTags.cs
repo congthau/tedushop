@@ -12,7 +12,11 @@ namespace TeduShop.Model.Model
         public int PostID { set; get; }
         public int TadsID { set; get; }
 
-        public virtual IEnumerable<Post> Post { set; get; }
+        [ForeignKey("PostID")]
+        public virtual Post Post { set; get; }
+
+        [ForeignKey("TagsID")]
+        public virtual Tags Tags { set; get; }
 
     }
 }
